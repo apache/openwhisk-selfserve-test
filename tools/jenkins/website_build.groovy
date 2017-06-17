@@ -45,7 +45,7 @@ node("git-websites") {
     git add .
     git status
     git commit -m "Automatic Site Publish by Jenkins"
-    git push origin asf-site
+    git push origin asf-site -f
     '''
   }
 
