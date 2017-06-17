@@ -44,8 +44,9 @@ node("git-websites") {
     git diff
     git add .
     git status
+    git pull
     git commit -m "Automatic Site Publish by Jenkins"
-    git push origin asf-site -f
+    git push origin asf-site
     '''
   }
 
